@@ -1,5 +1,3 @@
-py -3.9 -m manim semi-uncrossable.py
-
 # Set Family Edge Cover Visualizer
 This repository contains a visualizing tool for the primal-dual algorithm for solving the Set Family Edge Cover problem.
 
