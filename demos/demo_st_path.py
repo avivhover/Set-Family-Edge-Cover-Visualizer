@@ -1,6 +1,6 @@
 from typing import List, Set, FrozenSet, Dict
 
-from full_algorithm_solver import MyScene as Scene, Vertex, Edge, powerset
+from primal_dual_runner import MyScene as Scene, Vertex, Edge, powerset
 
 s = 4
 t = 3

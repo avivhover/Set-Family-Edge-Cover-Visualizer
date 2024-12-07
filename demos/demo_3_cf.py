@@ -1,7 +1,6 @@
 from typing import List, Dict
 
-from full_algorithm_solver import MyScene as Scene, Vertex, Edge
-from set_family_edge_cover_vis.primal_dual_runner import Family
+from primal_dual_runner import MyScene as Scene, Family, Vertex, Edge
 
 N = 7
 
