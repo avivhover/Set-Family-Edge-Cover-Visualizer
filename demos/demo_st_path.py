@@ -1,12 +1,12 @@
 from typing import List, Set, FrozenSet, Dict
 
-from primal_dual_runner import MyScene as Scene, Vertex, Edge, powerset
+from primal_dual_runner import Visualizer, Vertex, Edge, powerset
 
 s = 4
 t = 3
 
 
-class MyScene(Scene):
+class STPathVisualizer(Visualizer):
     def get_title(self) -> str:
         return "st-Path"
 

@@ -1,11 +1,11 @@
 from typing import List, Dict
 
-from primal_dual_runner import MyScene as Scene, Family, Vertex, Edge
+from primal_dual_runner import Visualizer, Family, Vertex, Edge
 
 N = 7
 
 
-class MyScene(Scene):
+class CFVisualizer(Visualizer):
     def get_title(self) -> str:
         return "3-Constrained Forest"
 

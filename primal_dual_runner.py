@@ -93,7 +93,7 @@ def next_to(obj: Mobject, scale: float = 0.2) -> Point3D:
     return center + vect / np.linalg.norm(vect) * scale
 
 
-class MyScene(Scene):
+class Visualizer(Scene):
     def __init__(self):
         super().__init__()
         # Load parameters from inheriting classes
